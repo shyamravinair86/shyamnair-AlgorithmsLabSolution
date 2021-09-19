@@ -34,6 +34,7 @@ public class PayMoneyService {
             checkTarget();
             NUM_TARGETS--;
         }
+        sc.close();
     }
 
     private void checkTarget() {
